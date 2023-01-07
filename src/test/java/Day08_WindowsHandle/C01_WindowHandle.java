@@ -1,4 +1,4 @@
-package Day08;
+package Day08_WindowsHandle;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -60,9 +60,6 @@ public class C01_WindowHandle extends TestBase {
         Thread.sleep(3000);
 //        1. windowa tekrar gecelim
         driver.switchTo().window(window1Handle);
-
-
-
 
         //Bir önceki pencereye geri döndükten sonra sayfa başlığının "The Internet" olduğunu  doğrulayın.
 
